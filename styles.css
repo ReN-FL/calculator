@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+#container {
+  width: 25rem;
+  height: 33rem;
+  border: 1px solid black;
+  padding: 7px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+}
+#display-container {
+  border-bottom: 1px solid white;
+  height: 5rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#result-display {
+  padding: 5px;
+  font-size: 30px;
+}
+#controls-container {
+  padding-top: 7px;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+.button:hover {
+  border-color: red;
+}
+.button {
+  border: 1px solid white;
+  background-color: rgb(62, 29, 206);
+  border-radius: 9%;
+  height: 5rem;
+  width: 5rem;
+  flex: 1 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+.operand {
+  background-color: rgb(199, 55, 55);
+}
+.special {
+  background-color: aqua;
+}
+#operatebutton {
+  border-radius: 0%;
+}
